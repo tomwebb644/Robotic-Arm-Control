@@ -42,4 +42,8 @@ and you will be promped to select another box.
 To exit the code, make the terminal running the 'Move_Arm_with_GUI.py' script and press ctrl+C.
 
 Alternatively, you can run 'Move_Arm_with_text.py' in place of 'Move_Arm_with_GUI.py' 
-to choose the box by colour and index inside the terminal. 
+to choose the box by colour and index inside the terminal.
+
+Recording of this project functioning can be found here: https://drive.google.com/file/d/1gWnTE1fnhlGcHRu585OcNONnjqEIQUgL/view?usp=sharing
+Analysis report can be found here: https://drive.google.com/file/d/1bUi7znbMS6iRDTXdLj3wylXP6avQvHpa/view?usp=drive_link
+
