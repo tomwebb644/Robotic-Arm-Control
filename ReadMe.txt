@@ -1,3 +1,9 @@
+
+Scope: The goal of this project was to create code that could communicate with my computer vision code, sending movement instructions to a robotic arm though the use of MoveIt Commander instructions. As the previous project could already identify shapes, the work would be converting locations in the image, to locations in a 3-dimensional space that the arm could understand.
+Action: The first step was to adapt the code from the computer vision to give pixel locations and size of object. Once these were gathered, a transform could be applied to convert the pixel locations in the image to the real-life locations that could then be given to the MoveIt commander code, facilitating the movement of the robotic arm.
+Result: Some issues surfaced when using movement commands originally, ensuring that the arm knows what the bounds of its operation are, including defining any fixtures within its reach. Ensuring all parameters are set correctly prevented collisions though poorly generated paths for the arm.
+
+
 Box identifier with pick and place motion programmed through MoveIt!
 
 This Folder should contain 6 files: 'Coordinate_Publisher.py', 'Move_Arm_with_GUI.py', 
